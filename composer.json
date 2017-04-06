@@ -1,9 +1,9 @@
 {
   "name" : "e-commerce-passaro/autenticacao",
-  "description" : "Biblioteca para autenticação",
+  "description" : "Biblioteca para autenticaï¿½ï¿½o",
   "version": "1.0.0",
   "type":"library",
-  "homepage":"https://github.com/e-commerce-passaro/autenticacao"
+  "homepage":"https://github.com/e-commerce-passaro/autenticacao",
   "time":"2017-04-06 14:14:01",
   "license":"GPL-3.0+",
   "authors":[{
@@ -21,7 +21,7 @@
     "php" : ">=7.0",
     "zendframework/zend-db" : "2.8.*",
     "zendframework/zend-hydrator" : "2.2.*",
-    "zendframework/zend-authentication" : "2.5.*",
+    "zendframework/zend-authentication" : "2.5.*"
   },
-  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "autenticacao" ],
+  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "autenticacao" ]
 }
