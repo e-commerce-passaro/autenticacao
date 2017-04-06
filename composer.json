@@ -23,5 +23,10 @@
     "zendframework/zend-hydrator" : "2.2.*",
     "zendframework/zend-authentication" : "2.5.*"
   },
-  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "autenticacao" ]
+  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "autenticacao" ],
+  "autoload": {
+        "psr-4": {
+            "Autenticacao\\": "src"
+        }
+  }  
 }
