@@ -1,6 +1,6 @@
 {
   "name" : "e-commerce-passaro/autenticacao",
-  "description" : "Biblioteca para autentica��o",
+  "description" : "Biblioteca para autenticação",
   "version": "1.0.0",
   "type":"library",
   "homepage":"https://github.com/e-commerce-passaro/autenticacao",
@@ -8,7 +8,7 @@
   "license":"GPL-3.0+",
   "authors":[{
 	"name":"Marcel Bezerra da Silva",
-	"email":"marcelbzra@gmail.com",
+	"email":"marcelbzrra@gmail.com",
 	"role":"developer"
   }],
   "support": {
