@@ -1,7 +1,7 @@
 {
   "name" : "e-commerce-passaro/autenticacao",
   "description" : "Biblioteca para autenticação",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type":"library",
   "homepage":"https://github.com/e-commerce-passaro/autenticacao",
   "time":"2017-04-06 14:14:01",
