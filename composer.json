@@ -1,10 +1,10 @@
 {
   "name" : "e-commerce-passaro/autenticacao",
   "description" : "Biblioteca para autenticação",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type":"library",
   "homepage":"https://github.com/e-commerce-passaro/autenticacao",
-  "time":"2017-04-06 14:14:01",
+  "time":"2017-04-07 12:18:02",
   "license":"GPL-3.0+",
   "authors":[{
 	"name":"Marcel Bezerra da Silva",
@@ -26,7 +26,7 @@
   "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "autenticacao" ],
   "autoload": {
         "psr-4": {
-            "Autenticacao\\": "./src/Autenticacao"
+            "Ecompassaro\\Autenticacao\\": "./src/Autenticacao"
         }
   }  
 }

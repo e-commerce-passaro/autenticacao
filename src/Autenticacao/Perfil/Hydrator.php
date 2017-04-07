@@ -1,9 +1,10 @@
 <?php
-namespace Autenticacao\Perfil;
+namespace Ecompassaro\Autenticacao\Perfil;
 
 use Zend\Hydrator\HydratorInterface;
+use Ecompassaro\Autenticacao\Perfil;
 
-class PerfilHydrator implements HydratorInterface
+class Hydrator implements HydratorInterface
 {
     /**
      * Converte um objeto perfil em vetor

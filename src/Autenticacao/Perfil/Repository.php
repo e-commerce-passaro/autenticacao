@@ -1,12 +1,13 @@
 <?php
-namespace Autenticacao\Perfil;
+namespace Ecompassaro\Autenticacao\Perfil;
 
 use Zend\Db\Adapter\AdapterInterface;
 use Zend\Db\TableGateway\TableGateway;
 use Zend\Db\Sql\Select;
 use Zend\Db\ResultSet\HydratingResultSet;
+use Ecompassaro\Autenticacao\Perfil;
 
-class PerfilRepository
+class Repository
 {
 
     private $tableName = 'perfil';
@@ -23,7 +24,7 @@ class PerfilRepository
      * @param PerfilHydrator $hydrator            
      * @param Perfil $prototipo            
      */
-    public function __construct(AdapterInterface $dbAdapter, PerfilHydrator $hydrator, Perfil $prototipo)
+    public function __construct(AdapterInterface $dbAdapter, Hydrator $hydrator, Perfil $prototipo)
     {
         $this->setTableGatway(new TableGateway($this->tableName, $dbAdapter, null, new HydratingResultSet($hydrator, $prototipo)));
     }

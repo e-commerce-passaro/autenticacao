@@ -1,9 +1,11 @@
 <?php
-namespace Autenticacao\Identificacao;
+namespace Ecompassaro\Autenticacao\Identificacao;
 
 use Zend\Authentication\AuthenticationService;
 
-class IdentificacaoRepository
+use Ecompassaro\Autenticacao\Identificacao;
+
+class Repository
 {
     
     private $authenticationService;

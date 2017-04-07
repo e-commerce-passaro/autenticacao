@@ -1,9 +1,9 @@
 <?php
-namespace Autenticacao;
+namespace Ecompassaro\Autenticacao;
 
 use Zend\Hydrator\HydratorInterface;
 
-class AutenticacaoHydrator implements HydratorInterface
+class Hydrator implements HydratorInterface
 {
     /**
      * Converte um objeto autenticacao em vetor

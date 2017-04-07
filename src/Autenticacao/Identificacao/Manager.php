@@ -1,7 +1,9 @@
 <?php
-namespace Autenticacao\Identificacao;
+namespace Ecompassaro\Autenticacao\Identificacao;
 
-class IdentificacaoManager
+use Ecompassaro\Autenticacao\Identificacao;
+
+class Manager
 {
     private $repository;
 
@@ -9,7 +11,7 @@ class IdentificacaoManager
      *
      * @param IdentificacaoRepository $repository
      */
-    public function __construct(IdentificacaoRepository $repository)
+    public function __construct(Repository $repository)
     {
         $this->repository = $repository;
     }

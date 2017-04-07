@@ -1,5 +1,5 @@
 <?php
-namespace Autenticacao\Identificacao;
+namespace Ecompassaro\Autenticacao;
 
 class Identificacao
 {

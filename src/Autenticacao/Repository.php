@@ -1,5 +1,5 @@
 <?php
-namespace Autenticacao;
+namespace Ecompassaro\Autenticacao;
 
 use Zend\Db\Adapter\AdapterInterface;
 use Zend\Authentication\Adapter\DbTable as AuthAdapter;
@@ -9,7 +9,7 @@ use Zend\Db\Sql\Select;
 use Zend\Db\Sql\Sql;
 use Zend\Db\Adapter\Driver\ResultInterface;
 
-class AutenticacaoRepository
+class Repository
 {
 
     protected $dbAdapter;
@@ -34,7 +34,7 @@ class AutenticacaoRepository
      * @param AutenticacaoHydrator $hydrator            
      * @param Autenticacao $prototipo            
      */
-    public function __construct(AdapterInterface $dbAdapter, AutenticacaoHydrator $hydrator, Autenticacao $prototipo)
+    public function __construct(AdapterInterface $dbAdapter, Hydrator $hydrator, Autenticacao $prototipo)
     {
         $this->dbAdapter = $dbAdapter;
         $this->hydrator = $hydrator;

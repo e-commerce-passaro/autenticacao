@@ -1,7 +1,9 @@
 <?php
-namespace Autenticacao\Identificacao;
+namespace Ecompassaro\Autenticacao\Identificacao;
 
-class IdentificacaoGenerator
+use Ecompassaro\Autenticacao\Identificacao;
+
+class Generator
 {
     private $identificacaoManager;
     
@@ -9,7 +11,7 @@ class IdentificacaoGenerator
      * Injeta dependências
      * @param IdentificacaoManager $identificacaoManager
      */
-    public function __construct(IdentificacaoManager $identificacaoManager)
+    public function __construct(Manager $identificacaoManager)
     {
         $this->identificacaoManager = $identificacaoManager;
     }

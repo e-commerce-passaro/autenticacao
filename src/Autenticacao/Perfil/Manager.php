@@ -1,7 +1,7 @@
 <?php
-namespace Autenticacao\Perfil;
+namespace Ecompassaro\Autenticacao\Perfil;
 
-class PerfilManager
+class Manager
 {
     private $repository;
 
@@ -9,7 +9,7 @@ class PerfilManager
      *
      * @param PerfilRepository $repository
      */
-    public function __construct(PerfilRepository $repository)
+    public function __construct(Repository $repository)
     {
         $this->repository = $repository;
     }

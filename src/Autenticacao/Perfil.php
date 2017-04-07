@@ -1,5 +1,5 @@
 <?php
-namespace Autenticacao\Perfil;
+namespace Ecompassaro\Autenticacao;
 
 class Perfil
 {

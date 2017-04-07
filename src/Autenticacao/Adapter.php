@@ -1,17 +1,17 @@
 <?php
-namespace Autenticacao;
+namespace Ecompassaro\Autenticacao;
 
 use Zend\Authentication\Result;
 use Zend\Authentication\Adapter\AbstractAdapter;
 use Zend\Authentication\Adapter\AdapterInterface;
-use Autenticacao\Identificacao\IdentificacaoGenerator;
-use Autenticacao\Perfil\PerfilManager;
+use Ecompassaro\Autenticacao\Identificacao\Generator as IdentificacaoGenerator;
+use Ecompassaro\Autenticacao\Perfil\Manager as PerfilManager;
 
 
 /**
  * Adapter para autenticação de login
  */
-class AutenticacaoAdapter extends AbstractAdapter implements AdapterInterface
+class Adapter extends AbstractAdapter implements AdapterInterface
 {
     private $key = 'bird-skeleton-login';
     private $autenticacao;
@@ -26,7 +26,7 @@ class AutenticacaoAdapter extends AbstractAdapter implements AdapterInterface
      * @param string $senha
      * @param Autenticacao\Identificacao\Identificacao $identificacao
      */
-    function __construct(AutenticacaoRepository $repository, IdentificacaoGenerator $identificacaoGenerator, PerfilManager $perfilManager)
+    function __construct(Repository $repository, IdentificacaoGenerator $identificacaoGenerator, PerfilManager $perfilManager)
     {
         $this->repository = $repository;
         $this->identificacaoGenerator = $identificacaoGenerator;

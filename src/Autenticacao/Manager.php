@@ -1,8 +1,9 @@
 <?php
-namespace Autenticacao;
+namespace Ecompassaro\Autenticacao;
 
-use Autenticacao\Perfil\PerfilManager;
-class AutenticacaoManager
+use Ecompassaro\Autenticacao\Perfil\Manager as PerfilManager;
+
+class Manager
 {
     private $repository;
     private $adapter;
@@ -14,7 +15,7 @@ class AutenticacaoManager
      * @param AutenticacaoAdapter $adapter
      * @param PerfilManager $perfilManager
      */
-    public function __construct(AutenticacaoRepository $repository, AutenticacaoAdapter $adapter, PerfilManager $perfilManager)
+    public function __construct(Repository $repository, Adapter $adapter, PerfilManager $perfilManager)
     {
         $this->repository = $repository;
         $this->adapter = $adapter;
